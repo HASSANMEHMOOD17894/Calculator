@@ -1,0 +1,73 @@
+
+.container{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+form{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 175px;
+    height: 350px;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: black;
+}
+.btn-div > button{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.btn-div > button > text{
+     
+}
+#display{
+    width: 150px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: black;
+    text-align: right;
+    vertical-align: bottom;
+    line-height: 30px;
+    font-size: 25px;
+    border: none;
+    box-shadow: none;
+}
+.divinput > input{
+    color: white;
+
+}
+
+#btn-top{
+    color: black;
+    background-color: rgb(210, 210, 210);
+}
+#btn-main{
+    color: white;
+    background-color: rgb(90, 85, 85);
+}
+#btn-side{
+    color: white;
+    background-color: #f9a32b;
+}
+#zero{
+    width: 82px;
+    height: 40px;
+    color: white;
+    background-color: rgb(90, 85, 85);
+}
+.function:active {
+    transform: scale(0.95); /* Shrinks the button slightly */
+    background-color: #040303; /* Changes background color */
+}
